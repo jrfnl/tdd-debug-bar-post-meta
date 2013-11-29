@@ -2,6 +2,7 @@
 	width: 100%;
 	border-collapse: collapse;
 	cell-padding: 1em;
+	clear: both;
 }
 
 .debug-bar-post-meta td {

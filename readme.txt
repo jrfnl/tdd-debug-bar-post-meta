@@ -32,6 +32,9 @@ This plugin requires the Debug Bar installed and activated in order to help you.
 
 == Changelog ==
 
+= Dev =
+* Minor CSS fix
+
 = 0.1 =
 * Initial release
 
