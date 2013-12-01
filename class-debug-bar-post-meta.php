@@ -3,8 +3,8 @@ class TDD_Debug_Bar_Post_Meta extends Debug_Bar_Panel {
 
 	function init(){
 		$this->title( __( 'Post Meta', 'debug-bar' ) );
-		add_action( 'wp_print_styles', array( $this, 'print_styles' ) );
-		add_action( 'admin_print_styles', array( $this, 'print_styles' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'print_styles' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'print_styles' ) );
 	}
 
 	public function print_styles() {
