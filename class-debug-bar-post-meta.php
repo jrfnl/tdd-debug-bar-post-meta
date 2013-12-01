@@ -13,7 +13,7 @@ class TDD_Debug_Bar_Post_Meta extends Debug_Bar_Panel {
 	}
 
 	public function prerender() {
-		$this->set_visible( true );
+		$this->set_visible( is_singular() );
 	}
 
 	public function render() {

@@ -18,8 +18,8 @@ Plugin structure taken from Debug Bar Cron, a fine plugin by Zack Tollman and He
  */
 function tdd_dbpm_debug_bar_panels( $panels ) {
 	if ( ! class_exists( 'TDD_Debug_Bar_Post_Meta' ) ) {
-		include ( 'class-debug-bar-post-meta.php' );
 		if ( is_singular() ) {
+			include ( 'class-debug-bar-post-meta.php' );
 			$panels[] = new TDD_Debug_Bar_Post_Meta();
 		}
 	}
