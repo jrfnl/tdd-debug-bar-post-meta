@@ -5,7 +5,6 @@ Tags: debug bar, post meta, meta, custom fields
 Requires at least: 3.4.2
 Tested up to: 3.4.2
 Stable tag: 0.1
-Depends: debug-bar
 
 Very simple extention to the debug bar to get a list of post meta for the current post
 
@@ -35,6 +34,7 @@ This plugin requires the Debug Bar installed and activated in order to help you.
 
 = Dev =
 * Minor CSS fix
+* Fix compatibility with the [Plugin Dependencies](http://wordpress.org/plugins/plugin-dependencies/) plugin
 
 = 0.1 =
 * Initial release

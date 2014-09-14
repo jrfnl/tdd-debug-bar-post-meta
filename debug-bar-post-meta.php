@@ -6,6 +6,7 @@ Description: Very simple extention to the debug bar to get a list of post meta f
 Author: Taylor Dewey
 Version: 0.1
 Author URI: http://github.com/tddewey
+Depends: Debug Bar
 
 Plugin structure taken from Debug Bar Cron, a fine plugin by Zack Tollman and Helen Hou-Sandi
 */
